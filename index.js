@@ -9,7 +9,9 @@ const getCode = params.get('code');
 const getVenue = params.get('venue');
 
 
-console.log(directus.items('campaigns'));
+const campigns = async () => await directus.items('campaigns').readMany();
+
+console.log(campigns);
 
 /*
 const code = PetiteVue.reactive({
