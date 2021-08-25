@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "parcel build index.js"
+  },
+  "dependencies": {
+    "@directus/sdk": "^9.0.0-rc.91"
+  }
+}
